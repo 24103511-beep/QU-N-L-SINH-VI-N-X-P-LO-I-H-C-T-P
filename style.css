@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    padding: 25px;
+    width: 100%;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+legend {
+    color: #34495e;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 10px;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 3px;
+    min-height: 16px;
+}
+
+button {
+    background-color: #27ae60;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.2s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+.result-container {
+    border-top: 2px solid #eee;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+.summary {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.summary p {
+    margin: 5px 0;
+}
+
+.badge {
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 2px 8px;
+}
+
+.badge-gioi { background-color: #27ae60; }
+.badge-kha { background-color: #2980b9; }
+.badge-tb { background-color: #f39c12; }
+.badge-yeu { background-color: #e74c3c; }
